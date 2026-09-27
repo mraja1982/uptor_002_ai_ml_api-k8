@@ -1,0 +1,25 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Machine learning artifacts & local logs
+mlruns/
+outputs/
+*.pkl
+*.joblib
+*.h5
+logs.txt
+*.log
+
+# Kubernetes temporary files or local secrets
+.minikube/
+kubeconfig
